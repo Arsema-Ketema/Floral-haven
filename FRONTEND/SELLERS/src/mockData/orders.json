@@ -1,0 +1,65 @@
+[
+    {
+      "orderId": "ORD12345",
+      "buyerName": "John Doe",
+      "email": "johndoe@example.com",
+      "phoneNumber": "+251900123456",
+      "deliveryOption": "Home Delivery",
+      "products": [
+        {
+          "productName": "Flower Bouquet",
+          "quantity": 1,
+          "price": 30.00
+        },
+        {
+          "productName": "Vase",
+          "quantity": 1,
+          "price": 15.00
+        }
+      ],
+      "totalAmount": 45.00,
+      "orderDate": "2025-04-01T10:00:00Z",
+      "deliveryAddress": "123 Main Street, Addis Ababa, Ethiopia",
+      "paymentMethod": "Cash on Delivery",
+      "status": "Processing"
+    },
+    {
+      "orderId": "ORD12346",
+      "buyerName": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phoneNumber": "+251900654321",
+      "deliveryOption": "In-store Pickup",
+      "products": [
+        {
+          "productName": "Rose Bouquet",
+          "quantity": 2,
+          "price": 25.00
+        }
+      ],
+      "totalAmount": 50.00,
+      "orderDate": "2025-04-02T12:30:00Z",
+      "deliveryAddress": "N/A",
+      "paymentMethod": "Telebirr",
+      "status": "Shipped"
+    },
+    {
+      "orderId": "ORD12347",
+      "buyerName": "Michael Johnson",
+      "email": "michaelj@example.com",
+      "phoneNumber": "+251901234567",
+      "deliveryOption": "Home Delivery",
+      "products": [
+        {
+          "productName": "Tulip Bouquet",
+          "quantity": 1,
+          "price": 20.00
+        }
+      ],
+      "totalAmount": 20.00,
+      "orderDate": "2025-04-03T15:45:00Z",
+      "deliveryAddress": "456 Flower Street, Addis Ababa, Ethiopia",
+      "paymentMethod": "CBE Birr",
+      "status": "Pending"
+    }
+  ]
+  

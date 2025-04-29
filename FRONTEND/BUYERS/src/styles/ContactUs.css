@@ -1,0 +1,26 @@
+.contact-title, .contact-subtitle, .contact-info-title {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.contact-info-title {
+  margin-top: 40px;
+}
+
+.MuiTextField-root {
+  margin-bottom: 15px;
+}
+
+.MuiButton-root {
+  font-size: 1rem;
+  padding: 10px 30px;
+}
+
+.MuiButton-contained {
+  background-color: #f4b400;
+  color: #000;
+}
+
+.MuiButton-contained:hover {
+  background-color: #ff9800;
+}

@@ -1,0 +1,70 @@
+.navbar {
+    background: linear-gradient(to right, #0a0a0a, #111) !important;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+    padding: 10px 20px !important;
+}
+
+.nav-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Hide normal nav links on mobile */
+.nav-links {
+    display: flex;
+}
+
+.nav-button {
+    color: #ddd !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    padding: 12px 20px !important;
+    margin: 0 8px !important;
+    letter-spacing: 1px !important;
+    transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease !important;
+}
+
+.nav-button:hover {
+    color: #fff !important;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4) !important;
+    transform: scale(1.08) !important;
+}
+
+/* Cart Icon (Always Visible) */
+.cart-icon {
+    color: #ddd !important;
+    transition: transform 0.3s ease, color 0.3s ease !important;
+}
+
+.cart-icon:hover {
+    color: #fff !important;
+    transform: scale(1.15) !important;
+}
+
+/* Hide menu icon on large screens */
+.menu-icon {
+    color: #ddd !important;
+    display: none !important;
+}
+
+/* Mobile Styles */
+@media (max-width: 900px) {
+    .nav-links {
+        display: none; /* Hide main links */
+    }
+    .menu-icon {
+        display: block !important;
+    }
+}
+
+/* Drawer Styling */
+.drawer .MuiPaper-root {
+    background: #111;
+    color: #ddd;
+    width: 250px;
+}
+

@@ -1,0 +1,14 @@
+.cart-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the page takes the full height */
+  }
+  
+  .cart-content {
+    flex: 1; /* Pushes the footer down */
+  }
+  
+  .footer {
+    margin-top: auto; /* Keeps footer at the bottom */
+  }
+  

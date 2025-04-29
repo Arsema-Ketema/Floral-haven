@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Rose Bouquet",
+    "price": 10,
+    "description": "Fresh red roses",
+    "image": "/images/RedRoses.jpg",
+    "category": "Bouquets"
+  },
+  {
+    "id": 2,
+    "name": "Tulip Bouquet",
+    "price": 12,
+    "description": "Bright and colorful tulips",
+    "image": "/images/tulips.jpg",
+    "category": "Bouquets"
+  },
+  {
+    "id": 3,
+    "name": "Sunflower",
+    "price": 8,
+    "description": "Cheerful sunflowers",
+    "image": "/images/sunflowers.jpg",
+    "category": "Seasonal Flowers"
+  },
+  {
+    "id": 4,
+    "name": "Wedding Bouquet",
+    "price": 25,
+    "description": "Elegant wedding bouquet",
+    "image": "/images/wedding-flowers.jpeg",
+    "category": "Wedding Flowers"
+  },
+  {
+    "id": 5,
+    "name": "Birthday Bouquet",
+    "price": 20,
+    "description": "Special birthday bouquet",
+    "image": "/images/birthday-specials.jpeg",
+    "category": "Birthday Specials"
+  },
+  {
+    "id": 6,
+    "name": "Orchid Bouquet",
+    "price": 15,
+    "description": "Exquisite purple orchids",
+    "image": "/images/orchidBouquet.jpg",
+    "category": "Bouquets"
+  },
+  {
+    "id": 7,
+    "name": "Lily Bouquet",
+    "price": 18,
+    "description": "Elegant white lilies",
+    "image": "/images/liliesImage.jpg",
+    "category": "Bouquets"
+  },
+  {
+    "id": 8,
+    "name": "Mixed Floral Bouquet",
+    "price": 22,
+    "description": "A mix of seasonal flowers",
+    "image": "/images/mixedFlowersImage.jpg",
+    "category": "Bouquets"
+  },
+  {
+    "id": 9,
+    "name": "Daisy Bunch",
+    "price": 10,
+    "description": "Bright and happy daisies",
+    "image": "/images/daisiesImage.jpg",
+    "category": "Seasonal Flowers"
+  },
+  {
+    "id": 10,
+    "name": "Chrysanthemum",
+    "price": 12,
+    "description": "Vibrant fall chrysanthemums",
+    "image": "/images/chrysanthemumsImage.jpg",
+    "category": "Seasonal Flowers"
+  },
+  {
+    "id": 11,
+    "name": "Peony Bunch",
+    "price": 20,
+    "description": "Soft and fragrant peonies",
+    "image": "/images/peoniesImage.jpg",
+    "category": "Seasonal Flowers"
+  },
+  {
+    "id": 12,
+    "name": "Lavender Bundle",
+    "price": 15,
+    "description": "Soothing and aromatic lavender",
+    "image": "/images/lavenderImage.jpg",
+    "category": "Seasonal Flowers"
+  },
+  {
+    "id": 13,
+    "name": "Bridal Rose Bouquet",
+    "price": 30,
+    "description": "Classic red roses for weddings",
+    "image": "/images/bridalRoseImage.jpg",
+    "category": "Wedding Flowers"
+  },
+  {
+    "id": 14,
+    "name": "White Orchid Arrangement",
+    "price": 35,
+    "description": "Sophisticated white orchids",
+    "image": "/images/whiteOrchidsImage.jpg",
+    "category": "Wedding Flowers"
+  },
+  {
+    "id": 15,
+    "name": "Calla Lily Wedding Bouquet",
+    "price": 28,
+    "description": "Pure white calla lilies",
+    "image": "/images/callaLilyImage.jpg",
+    "category": "Wedding Flowers"
+  },
+  {
+    "id": 16,
+    "name": "Gardenia Corsage",
+    "price": 15,
+    "description": "Fragrant gardenia corsage",
+    "image": "/images/gardeniaImage.jpg",
+    "category": "Wedding Flowers"
+  },
+  {
+    "id": 17,
+    "name": "Festive Carnation Bouquet",
+    "price": 18,
+    "description": "Colorful carnations for birthdays",
+    "image": "/images/carnationsImage.jpg",
+    "category": "Birthday Specials"
+  },
+  {
+    "id": 18,
+    "name": "Gerbera Daisy Birthday Bunch",
+    "price": 22,
+    "description": "Cheerful gerbera daisies",
+    "image": "/images/gerberaDaisyImage.jpg",
+    "category": "Birthday Specials"
+  },
+  {
+    "id": 19,
+    "name": "Bright Mixed Flowers",
+    "price": 24,
+    "description": "A vibrant mix of birthday flowers",
+    "image": "/images/brightMixedImage.jpg",
+    "category": "Birthday Specials"
+  },
+  {
+    "id": 20,
+    "name": "Rainbow Rose Bouquet",
+    "price": 28,
+    "description": "Unique and colorful rainbow roses",
+    "image": "/images/rainbowRosesImage.jpg",
+    "category": "Birthday Specials"
+  }
+]

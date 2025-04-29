@@ -1,0 +1,84 @@
+.hero-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: url('../assets/images/fshop.png') center/cover no-repeat;
+  color: white;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.story-section h4 {
+  color: #e0c097; /* Soft gold or any contrasting color */
+  font-weight: bold;
+}
+
+.story-section {
+  padding: 50px 0;
+}
+
+.story-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  margin: 40px 0 20px;
+  text-align: center;
+  color: #e0c097;
+}
+
+.offer-item {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #e0c097;
+}
+
+.team-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-avatar {
+  width: 120px !important; /* Increase width */
+  height: 120px !important; /* Increase height */
+  margin: 0 auto !important;
+}
+
+.testimonial-slider {
+  margin-top: 20px;
+}
+
+.testimonial-card {
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.testimonial-avatar {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 10px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  color: #555;
+}
+

@@ -1,0 +1,178 @@
+Floral Haven - E-Commerce SPA Frontend Development
+
+Project Overview
+Floral Haven is a Single Page Application (SPA) designed to provide a seamless online shopping experience for buying and selling flowers. This project is developed as part of the Winter 2025 CS323 - Web Design & Development 2 Group Project.
+
+Selected Product: Flowers
+Floral Haven focuses on selling flowers, bouquets, and floral arrangements. The website provides an intuitive user experience with a dark luxury aesthetic and soft gold accents.
+
+Group Members:
+
+1. Arsema Ketema
+
+2. Blen Solomon - Representative
+
+3. Haset Meseret
+
+4. Hewan Tewodros
+
+5. Ruth Zereatsion
+
+Technical Implementation
+Core Technologies
+
+React with modern JavaScript (ES6+)
+
+Material-UI for component styling
+
+Custom CSS for dark luxury aesthetic
+
+React Router for navigation
+
+Project Structure
+
+floral-haven/
+├──  Flower buyer/         # Buyer application
+│   ├── src/
+│   └── package.json
+├── seller/               # Seller application
+│   ├── src/
+│   └── package.json
+└── README.md
+
+How to Run the Project Locally
+
+Prerequisites
+Node.js v18+
+npm v9+ or yarn v1.22+
+
+Installation
+Navigate to each app directory:
+Steps
+
+Download the project and navigate to the folder:
+          cd Floral Haven
+
+Install dependencies:
+
+cd  Flower buyer
+npm install
+
+cd ../seller
+npm install
+
+Running the Applications
+Run both apps in separate terminals:
+
+Buyer App:
+
+cd  Flowerbuyer
+npm run dev
+Access at: http://localhost:5173
+
+Seller App:
+
+cd ../seller
+npm run dev
+Access at: http://localhost:5174
+5. Stopping the Applications
+
+Press CTRL + C in the terminal to stop the running applications.
+
+Key Features
+1.Buyer Features
+
+-Guest Mode: Browse products without registration.
+
+-Product Browsing: Search and filter flowers by category, price, and name.
+
+-Product Details Page: Displays product images, descriptions, pricing, and seller details.
+
+-Shopping Cart: Add, update, and remove items (managed in local state).
+
+- Messaging System: Buyer-seller communication (mock implementation with future WebSocket integration).
+
+2.Seller Features
+
+-Secure Seller Dashboard: Requires login.
+
+-Product Management: Add, edit, and delete listed flowers.
+
+-Image Upload: Simulated using a local preview.
+
+-Messaging System: Buyer-seller communication (mock implementation with future WebSocket integration)
+
+-View Orders: Sellers can view and manage orders, including order details and status updates..
+
+3.Core pages
+
+-Homepage: Featured flowers, categories, search bar.
+
+-Product Listing Page: Grid/list view with filtering and sorting.
+
+-Product Details Page: Images, product description, and pricing.
+
+-Cart Page: List of selected items, total cost calculation.
+
+-Checkout Page: Delivery information, order summary.
+
+-Static Pages: About Us, Contact Us.
+
+-Admin Dashboard: Manage products, orders, and messages (for future backend integration).
+
+
+
+Technical Implementation
+
+React and JavaScript (ES6+)
+
+- Functional Components: Modular and reusable UI elements.
+
+- React Hooks: `useState`, `useEffect`, `useContext` for state management.
+
+JavaScript Features Used:
+
+  - Destructuring Assignment: Extracts values from arrays or objects for cleaner code. Used in props handling and API responses.
+
+  - Spread/Rest Operators: Used for handling arrays and objects efficiently, such as copying product lists and updating cart items.
+
+  - Arrow Functions: Provides concise syntax and maintains `this` context. Used in event handlers and functional components.
+
+  - Template Literals: Enables dynamic string creation, used in rendering UI elements and logging messages.
+
+  - Modules (import/export): Organizes code into reusable modules for better maintainability.
+
+  - Async/Await: Handles asynchronous operations such as fetching product data from mock APIs for smooth user experience.
+
+
+2. Routing & State Management
+
+React Router: Implements SPA navigation.
+
+Local Storage: Stores cart data persistently.
+
+Mock JSON Data: Simulates backend responses for products and messages.
+
+
+3. Styling & UX/UI Enhancements
+
+Material-UI & Custom CSS: Used for dark luxury aesthetic with soft gold accents.
+
+Responsive Design: Optimized for mobile and desktop.
+
+Animations & Feedback:
+
+           - Smooth transitions
+
+           - Modals for product details
+
+           - Toast notifications ("Added to cart”)
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+/* Products.css */
+.products-container {
+    width: 100%;
+    color: #e0c097;
+    min-height: 100vh;
+    /* padding: 40px 20px; */
+    text-align: center;
+    padding: 20px;
+}
+
+.products-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e0c097;
+    margin-bottom: 20px;
+}
+
+.filter-section {
+    display: flex;
+    /* justify-content: center; */
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.luxury-input, .luxury-select {
+    background: #222;
+    border-radius: 8px;
+    color: #e0c097;
+    border: 1px solid #e0c097;
+}
+
+.luxury-input input, .luxury-select .MuiInputBase-input {
+    color: #e0c097 !important;
+}
+
+.luxury-input label, .luxury-select label {
+    color: #f8d7a1 !important;
+}
+
+.luxury-select .MuiOutlinedInput-notchedOutline {
+    border-color: #e0c097 !important;
+}
+
+.luxury-select .MuiSvgIcon-root {
+    color: #e0c097 !important;
+}
+
+.product-card {
+    background: #222;
+    border: 1px solid #e0c097;
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.product-card:hover {
+    border-color: #f8d7a1;
+    transform: scale(1.02);
+    box-shadow: 0px 4px 15px rgba(255, 215, 0, 0.3);
+}

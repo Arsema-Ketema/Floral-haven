@@ -1,0 +1,19 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items in the container */
+    margin: 20px 0; /* Add some margin for spacing */
+  }
+  
+  .product-card {
+    width: 100%; /* Full width for smaller screens */
+    max-width: 300px; /* Max width for large screens */
+    margin: 10px; /* Add margin around each card */
+  }
+  
+  .product-image {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+  }
+  

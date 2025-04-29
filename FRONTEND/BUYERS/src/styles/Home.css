@@ -1,0 +1,207 @@
+.home-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #121212; /* Dark background */
+  color: #e0c097; /* Gold text for luxury feel */
+  font-family: 'Playfair Display', serif;
+}
+
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  color: #f5e1c0; /* Soft gold color */
+  padding: 80px 20px;
+  position: relative;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+}
+
+.search-bar {
+  margin: 25px auto;
+  max-width: 600px;
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input {
+  background: #1e1e1e;
+  border: 1px solid #e0c097;
+  color: #e0c097;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  background: #b8860b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.search-bar .MuiInputLabel-root {
+  font-weight: bold; /* Makes the label bold */
+  color: #e0c097;     /* Set the color to your desired shade (gold or any color) */
+}
+
+
+.search-bar button:hover {
+  background: #c9a227;
+}
+
+.category-card, .product-card {
+  background: #1a1a1a;
+  border: 1px solid #e0c097;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category-card:hover, .product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(255, 215, 0, 0.3);
+}
+
+.category-image, .product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #e0c097;
+}
+
+/* About Us Section */
+.about-card {
+  background: #1a1a1a;
+  border: 1px solid #e0c097;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.about-card .luxury-text {
+  color: #e0c097;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.about-card h2 {
+  font-size: 2rem;
+  color: #e0c097;
+  margin-bottom: 20px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-card {
+  background: #1a1a1a;
+  border: 1px solid #e0c097;
+  padding: 20px;
+  text-align: center;
+  max-width: 500px; /* Keep a nice size */
+}
+
+.testimonial-image {
+  width: 100%; /* Make sure it fits */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+
+/* Contact Us Section */
+.contact-info-card {
+  background: #1a1a1a;
+  border: 1px solid #e0c097;
+  padding: 20px;
+  margin-top: 40px;
+  color: #e0c097;
+}
+
+.contact-info-card .luxury-text {
+  color: #e0c097;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.contact-info-card h2 {
+  font-size: 2rem;
+  color: #e0c097;
+  margin-bottom: 20px;
+}
+
+.contact-info-card .social-links {
+  margin-top: 20px;
+}
+
+.contact-info-card .social-links a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #e0c097;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.contact-info-card .social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Inquiry Form Link */
+.contact-info-card .luxury-link {
+  color: #e0c097;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info-card .luxury-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+
+  .hero-section h1 {
+    font-size: 2.2rem;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-card {
+  background: #1a1a1a;
+  border: 1px solid #e0c097;
+  padding: 20px;
+  text-align: center;
+  max-width: 500px; /* Keep a nice size */
+}
+
+.testimonial-image {
+  width: 100%; /* Make sure it fits */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+  .contact-info-card h2 {
+    font-size: 1.6rem;
+  }
+
+  .contact-info-card .luxury-text {
+    font-size: 0.9rem;
+  }
+
+  .contact-info-card .social-links a {
+    font-size: 0.9rem;
+  }
+}
+

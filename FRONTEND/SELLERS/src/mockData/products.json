@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Red Roses",
+      "description": "Fresh red roses for any occasion.",
+      "price": 10,
+      "image": "/images/RedRoses.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tulips",
+      "description": "Bright and colorful tulips.",
+      "price": 12,
+      "image": "/images/tulips.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sunflowers",
+      "description": "Cheerful sunflowers to brighten your day.",
+      "price": 15,
+      "image": "/images/sunflowers.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Lilies",
+      "description": "Elegant lilies for a touch of class.",
+      "price": 20,
+      "image": "/images/liliesimage.jpg"
+    }
+  ]
