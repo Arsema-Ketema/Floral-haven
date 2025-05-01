@@ -14,6 +14,7 @@ import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx'; // Import the Footer component
 import { ToastContainer } from 'react-toastify'; // Import ToastContainer
 import 'react-toastify/dist/ReactToastify.css'; // Import toast styles
+import SellerLogin from '../../SELLERS/src/pages/SellerLogin.jsx';
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/products" element={<Products />} />
+            
               <Route path="/cart" element={<Cart />} />
+              <Route path="/SellerLogin" element={<SellerLogin />}/>
               <Route path="/checkout" element={<Checkout />} />
               <Route path="/about-us" element={<AboutUs />} />
               <Route path="/product/:id" element={<ProductDetails />} />
