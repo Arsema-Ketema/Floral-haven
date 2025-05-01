@@ -3,9 +3,8 @@
     width: 100%;
     color: #e0c097;
     min-height: 100vh;
-    /* padding: 40px 20px; */
+    padding: 40px 20px;
     text-align: center;
-    padding: 20px;
 }
 
 .products-title {
@@ -18,7 +17,7 @@
 
 .filter-section {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
     margin-bottom: 30px;
